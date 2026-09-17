@@ -2,7 +2,7 @@
 
 int points = 0;
 
-Console.WriteLine("Vällkommen till min sportfrågor!");  
+Console.WriteLine("Vällkommen till min frågsport!");  
 Console.WriteLine("Jag kommer ställa frågor och du ska välja mellan a, b eller c");
 Console.WriteLine("Varje rätt svar får du en pöang");
 
@@ -62,6 +62,8 @@ else
 {
     Console.WriteLine("Wow! du fick alla rätt");
 }
+
+Console.WriteLine("Tryck enter för att avsluta");
 
 Console.ReadLine();
 
